@@ -13,6 +13,7 @@ public class Student extends Person implements Sports {
     Student(String name){
         super(name); // here we call the parent class constructor
     }
+
     @Override
     public void play(){
         System.out.println(name+ " Play football");
