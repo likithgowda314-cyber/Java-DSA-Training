@@ -12,7 +12,7 @@ public class FoodOrder extends Thread{
 
     }
     public static void main(String[] args){
-            FoodOrder cooking = new FoodOrder("cooking");
+            FoodOrder cooking = new  FoodOrder("cooking");
             FoodOrder packing = new FoodOrder("packing");
             FoodOrder delivery= new FoodOrder("delivery");
             cooking.start();
